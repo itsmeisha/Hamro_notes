@@ -29,6 +29,8 @@ private DrawerLayout drawer;
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragement_conatiner, new OS()).commit();
             navigation.setCheckedItem(R.id.calculate);
+
+
         }
     }
     @Override
